@@ -93,7 +93,7 @@ async function recognizeSudokuFromImage() {
         cv.warpPerspective(original, warped, M, new cv.Size(size, size), cv.INTER_LINEAR, cv.BORDER_CONSTANT, new cv.Scalar());
 
         // Optionally draw grid lines (for debugging)
-        drawGrid(warped, size);
+        //drawGrid(warped, size);
 
         // Clean up intermediate Mats
         src.delete();
